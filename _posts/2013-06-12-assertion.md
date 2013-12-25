@@ -10,7 +10,7 @@ tags: [C]
 
 当然说是新也不新，在《编程珠玑》第二版的第五章介绍了断言的用法，我们来看一看断言到底如何使用。断言其实是用来判断某个逻辑表达式是否为真的语句，在Ｃ中以assert函数实现，我们需要将断言插入代码，以确保程序运行时的行为与我们的理解一致。我们来举个例子：（Ｃ代码需要包含头文件assert.h）
 
-{% highlight c %}
+``` c
 #include <stdio.h>
 #include <assert.h>
 
@@ -22,7 +22,8 @@ int main(void)
 	assert(a > b);
 	return 0;
 }
-{% endhighlight %}
+```
+
 
 在linux下使用GCC编译后，运行该程序，得到的信息：
     
@@ -66,7 +67,7 @@ int main(void)
 
 《代码大全》提供了一种更好的断言实现，使用宏即可：
 
-{% highlight c %}
+``` c
 #define ASSERT(condition, message) {    	\
 	if (! (condition) ) {               	\
 		printf("Assertion failed: ",);  \
@@ -74,7 +75,7 @@ int main(void)
 		exit( EXIT_FAILURE);            \
 	}                                   	\
 }                                       	\
-{% endhighlight %}
+```
 这里对书中代码稍作改变，使用上面的宏，我们不仅可以判断表达式是否为真，也可以打印相关的错误信息。同时，这段宏在编译时通过预处理器，减少了额外的开销。
 
 除此，我之所喜欢断言，因为它不像调试工具一样复杂（需要设置断点，查看寄存器等），也不会像pringf语句一样无论如何都会打印信息。断言是如此简洁而高效，是很多编程大牛都推荐使用的调试方法（《编程人生》，当然也有使用调试工具和printf的）。
