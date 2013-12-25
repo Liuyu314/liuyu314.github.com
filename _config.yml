@@ -1,4 +1,4 @@
-# This is the default format. 
+#This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
@@ -11,9 +11,9 @@ pygments: true
 title : 首页
 tagline: Site Tagline
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
+  name : yuliu
+  email : yuliu314@gmail.com
+  github : Liuyu314
   twitter : username
   feedburner : feedname
 
