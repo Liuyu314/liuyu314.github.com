@@ -11,7 +11,7 @@ tags: [Git]
 
 首先要先为Eclipse安装Git，Eclipse已经为我们安装好了Git，如果你的还没有安装，可以按照下面的步骤进行：点击Help -> Install New Software -> Add
 
-<p><img src="/images/blogImgs/EGIT1.png" width=‘650' height=‘488'></p>
+<p><img src="/images/blogImgs/EGIT1.png" width='650' height='488'></p>
 
 网址即： http://download.eclipse.org/egit/updates/ ，也可以点击Help中的Eclipse Marketplace查找GIT进行下载。
 
@@ -19,11 +19,11 @@ OK，假设你已经安装完毕。选择Preferences -> Team -> Git -> Configura
 
 配置完成后，随便创建一个新项目。右键选择工程项目，选择Team->Share Project。注意，网上有些文章说是在File中查找，但是我的Eclipse的File中并没有该选项。接下来要选择图中Use or create repository in parent folder of project。再勾选项目的复选框。可能你会发现无法勾选，那就点击下面的Create Repository为项目建立Git目录，即.git文件夹。此时再勾选项目即可。
 
-<p><img src="/images/blogImgs/EGIT2.png" width=‘650' height=‘488'></p>
+<p><img src="/images/blogImgs/EGIT2.png" width='650' height='488'></p>
 
 我们再次右键工程项目选中Team，就可以看到如下信息：
 
-<p><img src="/images/blogImgs/EGIT3.png" width=‘650' height=‘395'></p>
+<p><img src="/images/blogImgs/EGIT3.png" width='650' height='395'></p>
 
 这里包含很多Git的功能选项，如果你熟悉Git的用法，相信很多你都不会陌生，比如commit，push，pull等等。用法与终端下的Git相似，首先是将文件添加至暂存区进行追踪。commit将这些文件添加至Git仓库中。当我们要查看提交情况时，选择show in history即可。
 
