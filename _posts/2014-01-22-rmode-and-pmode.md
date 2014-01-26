@@ -3,7 +3,7 @@ layout: post
 title: "实模式与保护模式"
 description: ""
 category: "OS"
-tags: [OS]
+tags: [os]
 ---
 {% include JB/setup %}
 
