@@ -19,7 +19,7 @@ OK，假设你已经安装完毕。选择Preferences -> Team -> Git -> Configura
 
 配置完成后，随便创建一个新项目。右键选择工程项目，选择Team->Share Project。注意，网上有些文章说是在File中查找，但是我的Eclipse的File中并没有该选项。接下来要选择图中Use or create repository in parent folder of project。再勾选项目的复选框。可能你会发现无法勾选，那就点击下面的Create Repository为项目建立Git目录，即.git文件夹。此时再勾选项目即可。
 
-<p><img src="/images/blogImgs/EGIT2.png" width='650' height='488'></p>
+<p><img src="/images/blogImgs/EGIT2.png"></p>
 
 我们再次右键工程项目选中Team，就可以看到如下信息：
 
