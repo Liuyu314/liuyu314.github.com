@@ -2,8 +2,8 @@
 layout: post
 title: "实模式与保护模式"
 description: ""
-category: "操作系统"
-tags: [操作系统]
+category: "OS"
+tags: [OS]
 ---
 {% include JB/setup %}
 
