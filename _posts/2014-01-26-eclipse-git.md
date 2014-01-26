@@ -23,7 +23,6 @@ OK，假设你已经安装完毕。选择Preferences -> Team -> Git -> Configura
 
 我们再次右键工程项目选中Team，就可以看到如下信息：
 
-
 <p><img src="/images/blogImgs/EGIT3.png" width=‘650' height=‘395'></p>
 
 这里包含很多Git的功能选项，如果你熟悉Git的用法，相信很多你都不会陌生，比如commit，push，pull等等。用法与终端下的Git相似，首先是将文件添加至暂存区进行追踪。commit将这些文件添加至Git仓库中。当我们要查看提交情况时，选择show in history即可。
