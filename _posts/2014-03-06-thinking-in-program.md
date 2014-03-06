@@ -9,7 +9,7 @@ tags: [programming]
 
 最近忙于做一个Android的程序，一直没有时间来写点东西。一味地写代码也许会让人充实，但还是要不时的停下来思考，思考正确的方法和道路。昨天和今天写了一些python代码，主要是调用windows下的一些exe程序（C程序），结合最近读的一本书[《代码整洁之道》](http://book.douban.com/subject/4199741/)，真的受益匪浅，有种醍醐灌顶的感觉。
 
- <p><img src="/images/blogImgs/cleancode.png"></p>
+ <p><img src="/images/blogImgs/cleancode.jpg"></p>
 
 书中讲了很多如何编写优秀代码的方法，在写python代码时，我特意注意了这些。回过头来看以前写的C代码，那是一种丑陋与混乱结合的混沌之物，简直不忍直视。而这些新写的python代码却是真正的简洁，可读性大大增强。
 
