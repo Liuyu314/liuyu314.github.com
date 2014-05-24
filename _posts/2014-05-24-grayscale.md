@@ -138,8 +138,8 @@ public static void main(String[] args) throws IOException {
 这里需要注意的是，网上的一些文章或多或少没有做更进一步的思考（甚至很多都是照搬，尤其是国内的文章），而对于这些实际问题，动手实现并验证是非常重要的方法。希望本文对大家有所帮助。
 
 ###参考
-- [1]《多媒体技术教程》Ze-Nian Li，Mark S.Drew著，机械工业出版社。
+- [1]  《多媒体技术教程》Ze-Nian Li，Mark S.Drew著，机械工业出版社。
 
-- [2][!百度百科：灰度值](http://baike.baidu.com/view/3701940.htm)
+- [2]  [百度百科：灰度值](http://baike.baidu.com/view/3701940.htm)
 
-- [3][!Java color image to grayscale conversion algorithm(s)](http://zerocool.is-a-geek.net/java-color-image-to-grayscale-conversion-algorithm/)
+- [3]  [Java color image to grayscale conversion algorithm(s)](http://zerocool.is-a-geek.net/java-color-image-to-grayscale-conversion-algorithm/)
